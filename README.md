@@ -5,11 +5,9 @@
 
 ## Example
 ```
- 
-import random
 from hikvision.hikvision import HIKVisionSDK
 
-LIB_DIR = '/home/baloneo/PythonProject/HCNetPythonSDK-Linux/hklib'
+LIB_DIR = '/home/root/PythonProject/HCNetPythonSDK-Linux/hklib'
 
 sdk = HIKVisionSDK(lib_dir=LIB_DIR,
                    username='admin',
